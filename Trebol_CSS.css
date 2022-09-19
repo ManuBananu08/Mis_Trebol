@@ -1,0 +1,699 @@
+body{
+	background-color: #d0d3d6;
+	margin: 0px;
+}
+
+#Tr_Seccion_1{
+	display: none;
+}
+#Tr_Seccion_2{
+	display: none;
+}
+#Tr_Seccion_3{
+	display: none;
+}
+#Tr_Seccion_4{
+	display: none;
+}
+#Tr_Seccion_5{
+	display: none;
+}
+#Tr_Seccion_6{
+	display: none;
+}
+.Tr_Seccion{
+	width: 1500px;
+	height: 800px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 1px gray;
+	margin-left: 40px;
+}
+
+
+#Borrar_Pr{
+	float: left;
+	margin-left: -20px;
+}
+#TR_editar{
+	display: none;
+	width: 700px;
+	height: 500px;
+	float: right;
+	margin-top: 80px;
+	margin-right: 27%;
+	border-radius: 10px;
+	background-color: rgba(23,23,23,.4);
+	box-shadow: 0px 0px 20px 1px black;
+	padding: 10px;
+}
+#TR_editar_2{
+	width: 680px;
+	height: 480px;
+	float: right;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,.09);
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#TR_editar_2 input{
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding-top: 5px;
+	border-radius: 10px;
+	border:none;
+	background-color: rgba(255,255,255,.1);
+	color: #fff;
+
+}
+
+
+
+/*____________________________Barra Usuario Y direcciones_________________*/
+#TR_Usuario_1{
+	display: none;
+}
+#TR_Usuario_2{
+	width: 300px;
+	height: 1400px;
+	position: absolute;
+	background-color: #232f3e;
+	box-shadow: 0px 0px 20px 1px black;
+}
+
+#TR_X{
+	width: 20px;
+	height: 20px;
+	margin-left: 270px;
+	margin-top: 20px;
+	position: absolute;
+}
+/*________________________MODO ADMIN_________________________________*/
+
+#TR_Pad{
+	width: 950px;
+	height: 550px;
+	background: #283c86;
+	background: -webkit-linear-gradient(to right, #45a247, #283c86);
+	background: linear-gradient(to right, #45a247, #283c86);
+	border-radius: 10px;
+	display: none;
+	padding: 40px;
+}
+
+#TR_Pad_1{
+	width: 1000px;
+	height: 600px;
+	background-color: black;
+	border-radius: 30px;
+	margin-left: 19%;
+	margin-top: 2%;
+	padding: 25px;
+}
+
+#TR_Pad_2{
+	width: 950px;
+	height: 550px;
+	background: #283c86;
+	background: -webkit-linear-gradient(to right, #45a247, #283c86);
+	background: linear-gradient(to right, #45a247, #283c86);
+	border-radius: 10px;
+}
+
+#TR_Pad_3{
+	width: 600px;
+	height: 60px;
+	float: left;
+	margin-top: 470px;
+	margin-left: 180px;
+	background-color: rgba(188,188,188,.5);
+	border-radius: 10px;
+}
+
+.TR_Pad_1{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 18px;
+	background-color: #fff1a2;
+	border-radius: 10px;
+}
+/*____________________________Iniciar Secion___________________________*/
+
+#Fon{
+	position: relative;
+	top: -150px; left: 1060px;
+	width: 70px;
+	height: 70px;
+	
+}
+
+#Fonb{
+	position: relative;
+	top: -228px; left: 1060px;
+	width: 70px;
+	height: 70px;
+}
+
+#FonC{
+	position: relative;
+	top: -277px; left: 1060px;
+	width: 70px;
+	height: 70px;
+}
+
+#TR_X_1{
+	width: 20px;
+	height: 20px;
+	margin-left: 500px;
+	margin-top: 20px;
+	position: absolute;
+}
+#TR_X_2{
+	width: 20px;
+	height: 20px;
+	margin-right:20px;
+	float: right;
+}
+#TR_IniciarS_1{
+	display: none;
+	margin-top: -7px;
+	margin-left: 12%;
+	width: 1200px;
+	height: 700px;
+	position: absolute;
+}
+#TR_IniciarR_2{
+	display: none;
+	margin-top: -7px;
+	margin-left: 12%;
+	width: 1200px;
+	height: 700px;
+	position: absolute;
+}
+
+#TR_IniciarC_3{
+	display: none;
+	margin-top: -7px;
+	margin-left: 12%;
+	width: 1200px;
+	height: 700px;
+	position: absolute;
+}
+
+#InicioTR{
+	margin-left: 2.5%;
+	margin-top: 40px;
+	width: 95%;
+	height: 700px;
+	background-color:#d0d3d6;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 1px black;
+}
+
+#parte1{
+	width: 47.5%;
+	height: 700px;
+	margin-right:52.5%;
+	border-top-left-radius:30px;   
+	border-bottom-left-radius: 30px;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#Im{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+.parte1h2{
+	margin-top: 80px;
+	margin-left: 180px;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+.parte1h22{
+	margin-top: -10px;
+	margin-left: 180px;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+.parte1p{
+	margin-left: 110px;
+	margin-top: 0px;
+}
+.Tinput{
+	margin-top: 40px;
+	margin-left: 70px;
+	padding: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	border-radius: 30px;
+	border-style: none;
+}
+
+.Tinput2{
+	margin-top: 2px;
+	margin-left: 70px;
+	padding: 12px;
+	padding-left: 150px;
+	padding-right: 150px;
+	border-radius: 30px;
+	border-style: none;
+}
+
+#IniciarS{
+	margin-top: 20px;
+	margin-left: 130px;
+	padding: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	border-radius: 30px;
+	border-style: none;
+	color: #fff1a2;
+	background-color:#232f3e;
+	
+}
+#Reg{
+	margin-left: 180px;
+	margin-top: 10px;
+}
+#TR1{
+	color: #fff1a2;
+	position: relative;
+	top: -400px; left: 790px;
+	font-size: 45px;
+}
+
+#TR2{
+	color: #fff1a2;
+	position: relative;
+	top: -410px; left: 800px;
+}
+
+#TR1b{
+	color: #fff1a2;
+	position: relative;
+	top: -500px; left: 790px;
+	font-size: 45px;
+}
+#TR2b{
+	color: #fff1a2;
+	position: relative;
+	top: -520px; left: 800px;
+}
+
+#parte2{
+	width: 47.5%;
+	height: 700px;
+	margin-left:52.5%;
+	border-top-right-radius:10px;   
+	border-bottom-right-radius: 10px;
+	float: top;
+	background-color: #131921;
+}
+
+#Conocenos{
+	width: 60px;
+	height: 90px;
+	position: relative;
+	top: 0px; left: 50px;
+	border-bottom-right-radius: 10px;
+	background-color: #131921;
+}
+
+#Ub{
+	width: 500px;
+	height:350px;
+	margin-left: 60px;
+}
+
+#RegC{
+	margin-left: 200px;
+}
+
+/*________________________IniTR_X_2TR_X_2cio_______________________________________*/
+
+#TR_Centro{
+	width:45px;
+	margin-top: 8px;
+	margin-left: 20px;
+	margin-right:0px;
+	float: left;
+}
+
+#TR_Nombre_1{
+	width:200px;
+	margin-top: 10px;
+	margin-left: -20px;
+	float: left;
+}
+
+#TP_1{
+	background-color: #39b54a;
+	margin-left: 40px;
+	margin-top: 35px;
+	float: left;
+}
+#TP_2{
+	background-color: #232f3e;
+	margin-left: 5px;
+	margin-top: 35px;
+	float: left;
+}
+#TP_3{
+	background-color: #39b54a;
+	margin-left: 5px;
+	margin-top: 35px;
+	float: left;
+}
+#TP_4{
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+	margin-right: 38px;
+	float: right;
+}
+/*_____________________NavPrincipalr_______________________________*/
+
+#TR_NavP_1{
+	height: 60px;
+	background-color: #131921;
+}
+#TR_NavS_1{
+	height: 40px;'
+	margin-bottom: 20px;
+	background-color: #232f3e;
+}
+
+.TR_Sec_1{
+	width: 140px;
+	background-color: #1d2633;
+	padding: 10px;
+	border-radius: 5px;
+	border:none;
+	margin-left: 4px;
+	margin-top: 11px;
+	color:#fff1a2;
+}
+
+
+.TR_Sec_1:hover{
+	width: 140px;
+	background-color: #fff1a2;
+	padding: 10px;
+	border-radius: 5px;
+	border:none;
+	margin-left: 4px;
+	margin-top: 11px;
+	color:#232f3e;
+}
+
+#TR_Sec_2{
+	margin-left: 30%;
+}
+/*____________________________NavBar_______________________________*/
+
+#TR_Nav_1{
+	width: 95%;
+	height: 60px;
+	background-color: #232f3e;
+	float: left;
+	margin-top: 25px;
+	margin-left: 2.5%;
+	border-radius: 8px;
+}
+
+#TR_Nav_2{
+	width: 70%;
+	height:35px;
+	background-color: #006837;
+	float: left;
+	margin-top: 12.5px;
+	margin-left: 12%;
+	border-radius: 8px;
+	border:none;
+}
+
+#TR_Nav_3{
+	width: 70%;
+	height: 20px;
+	background-color: #006837;
+	float: left;
+	margin-top: 6.25px;
+	margin-left: 11%;
+	border:none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+#TR_Nav_3::placeholder { 
+	color: #fff1a2; 
+}
+
+#TR_Nav_4{
+	margin-top: 5px;
+	margin-left: 100px; 
+	width: 25px;
+	height: 25px;
+}
+
+#TR_Nav_5{
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+
+
+#TR_Nav_6{
+	margin-top: 15px;
+	margin-right:10px;
+	float: right;
+	width: 30px;
+	height: 30px;
+}
+/*_______________________Imagen____________________________________*/
+
+#TR_Img_1{
+	width: 92%;
+	float: left;
+	margin-left: 4%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: 20px;
+}
+
+/*________________________Carrito_________________________________*/
+
+
+.TR_Cerrar_2{
+	background-color: #fff1a2;
+	border:none;
+	border-radius: 2px;
+	color: #006837;
+}
+.mb-0{
+	margin-right: 4px;
+	margin-left: 30%;
+}
+.mb-0{
+	color: #fff1a2;
+}
+.col{
+	color: #fff1a2;
+}
+.col-2{
+	color: #fff1a2;
+}
+.col-4{
+	color: #fff1a2;
+}
+
+.tr_contenedor_1{
+	color: #fff1a2;
+}
+#TR_letras{
+	color: #fff1a2;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+#TR_Car_Im{
+	width: 30px;
+	height: 30px;
+	margin-left:20px;
+	margin-top: 5px;
+}
+
+#TR_Carrito_1{
+	display: none;
+	width: 700px;
+	height: fixed;
+	position: absolute;
+	margin-left: 54%;
+	background-color:#006837;
+	box-shadow: 0px 0px 20px 1px black;
+}
+
+#TR_BarC_1{
+	width: 680px;
+	height: 2px;
+	background-color: #fff1a2;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#TR_BarC_2{
+	width: 680px;
+	height: 3px;
+	background-color: #fff1a2;
+	margin-left: 10px;
+	margin-top: 67%;
+}
+
+#TR_total_1{
+	color: #fff1a2;
+	font-size: 25px;
+	margin-left: 20px;
+}
+/*________________________Class____________________________________*/
+
+.redondo{
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.redondo{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border:none;
+}
+
+.TR_IS_R{
+	border:none;
+	color: #fff1a2;
+	background-color: #131921;
+}
+
+/*____________________________________productos______________*/
+
+/*En si lacAJA DONDE ESTA EL  OBJETO O PRODUCTO*/
+
+#Tr_Parte_1a{
+	float: left;
+	margin-left: 11%;
+	margin-top: 60px;
+}
+
+#Tr_Parte_1b{
+	float: left;
+	margin-left: 11%;
+}
+
+.tr_item {
+  width: 300px;
+  height: 360px;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 20px;
+  float: left;
+  margin-right: 20px;
+
+}
+
+/*TITULO DE EL PRODUCTO*/ 
+.tr_item-title {
+  text-align: left;
+  font-weight: 600;
+}
+
+
+/* Imagen del producto*/ 
+.tr_item-image {
+  height: 200px;
+  width: 200px;
+  margin-left: 10%;
+}
+
+/*Boton de  A'adir al carrito*/
+.tr_item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 15px;
+}
+
+.tr_item-details > .tr_item-price {
+  margin: 0;
+}
+
+.tr_boton_Car{
+  border:none;
+  border-radius: 5px;
+  background-color: #232f3e;
+  color:#fff1a2;
+}
+
+.tr_boton_Car:hover{
+  background-color: #fff1a2;
+  color:#232f3e;
+}
+
+
+/* donde esta  el toatl de la compra*/
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ffff;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+#TR_Productos_E_1{
+	width: 95%;
+	height: 80px;
+	background-color: #232f3e;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 30px;
+	border-radius: 10px;
+	color: #fff1a2;
+	font-size: 20px;
+}
+
+#TR_Productos_E_1 h2{
+	margin-left: 40%;
+	margin-top: 20px;
+}
